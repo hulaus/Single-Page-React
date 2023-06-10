@@ -10,7 +10,7 @@
     
     "targets": {
     
-    "esmodules": true
+    "esmodules": true //Needs to be targeting esmodules in order to use the latest Node modules
     
     }
     
