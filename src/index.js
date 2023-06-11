@@ -5,8 +5,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
     return (
-        <div>
+        <div className='container'>
             <h1>Rick & Morty</h1>
+            <nav className='navbar sticky-top nabar-light bg-dark'>
+                <h1 className='navbar-brand text-light'>Rick and Morty</h1>
+            </nav>
             <List />
         </div>
     )
