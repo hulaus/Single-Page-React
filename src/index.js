@@ -1,6 +1,7 @@
 // console.log('Rick and Morty');  This was the initial test for the index.js
 import ReactDOM from 'react-dom/client';
 import List from './components/List';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
     return (
